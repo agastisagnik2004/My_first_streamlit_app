@@ -27,7 +27,7 @@ if df.empty:
 
 # Title
 st.title("IPL Matches Dashboard")
-st.image("C:\\Users\\sagni\\Desktop\\Streamlit\\ipl.png", width=200)
+st.image("ipl.png", width=200)
 
 # Sidebar
 st.sidebar.header("Player Profile")
