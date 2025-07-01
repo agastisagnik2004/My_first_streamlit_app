@@ -10,7 +10,7 @@ st.set_page_config(page_title="IPL Matches Dashboard", layout="wide")
 @st.cache_data
 def load_data():
     try:
-        data = pd.read_csv("C:\\Users\\sagni\\Desktop\\Streamlit\\matches.csv")
+        data = pd.read_csv("matches.csv")
         data = data.dropna(subset=['season', 'player_of_match', 'result', 'winner', 'toss_decision'])
         data['season'] = data['season'].astype(str)
         data['result_margin'] = pd.to_numeric(data['result_margin'], errors='coerce')
