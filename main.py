@@ -27,7 +27,6 @@ if df.empty:
 
 # Title
 st.title("IPL Matches Dashboard")
-st.image("ipl.png", width=200)
 
 # Sidebar
 st.sidebar.header("Player Profile")
